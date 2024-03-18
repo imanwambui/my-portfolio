@@ -1,0 +1,58 @@
+*{
+     margin: 0px;
+     box-sizing: border-box;
+     background-color: rgb(143, 138, 138);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+    background-color: rgb(143, 138, 138);
+}
+
+nav a{
+    text-decoration: none;
+    padding-right: 15px;
+    color:black
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section div{
+    width: 50%;
+    height: 100%vh;
+}
+
+section div img{
+    height: 700px;
+}
+
+section div h1{
+    font-size:xx-large;
+    padding-bottom: 13px; 
+}
+
+section div h6{
+    font-weight: 500;
+    font-size: x-large;
+    padding-top: 0px;
+}
+
+section div h2{
+    padding-top: 70px;
+    font-size: x-large;
+    color: #232222;
+}
+
+section div h5{
+    font-weight: 540;
+    font-size: large;
+}
